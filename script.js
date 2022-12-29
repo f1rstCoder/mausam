@@ -41,15 +41,6 @@ function addWeatherToPage(data) {
   localStorage.setItem(`${data.name}`, weather.innerHTML);
   DivContainer.appendChild(weather);
 
-  document.querySelector(".remove").addEventListener("click", () => {});
-
-  // Pin, Remove and explore ke options
-  // deploy on netlify
-  // implement a clear all button
-  // Implement a draggable button to drag and rearrange
-  // Find way to add notice if internet diconnected
-  // Preserve details even on page reload or browser and laptop shutdown
-  // automatically update content
 }
 
 function Ktoc(K) {
