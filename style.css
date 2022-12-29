@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: linear-gradiet(300deg, #757b87, #909d9d);
+}
+nav {
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  line-height: 75px;
+  padding: 0px 200px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#logo p {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: rgb(0, 0, 0);
+  font-family: inherit;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+#form {
+  float: right;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  font-family: inherit;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 0px;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  font-family: inherit;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  min-width: 30px;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+main {
+  position: relative;
+  margin-top: 10px;
+}
+#div-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 2em 0em;
+  margin-top: 10px;
+}
+
+.div-shadow {
+  position: relative;
+  width: 25%;
+  height: 50%;
+  /* margin: 0 1em 1em 0; */
+  border: 1px solid black;
+}
+
+.weather {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: 0.5s linear;
+}
+.weather h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.options {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-right: 7px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+li {
+  padding: 7px;
+  border-radius: 5px;
+}
+.remove:hover,
+.explore:hover,
+.pin:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 25px; /* Height of the footer */
+  text-align: center;
+  background-color: black;
+  color: white;
+}
